@@ -6,7 +6,6 @@ describe('useCounter', () => {
   beforeEach(() => {
     setActivePinia(createPinia())
   })
-
   it('contador inicial 0', () => {
     const counterStore = useCounterStore()
     expect(counterStore.count).toBe(0)
